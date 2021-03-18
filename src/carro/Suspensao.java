@@ -4,7 +4,12 @@ public class Suspensao {
 	
 	private double altura;
 	private String tipo;
-	
+
+	public Suspensao(double altura, String tipo) {
+		this.altura = altura;
+		this.tipo = tipo;
+	}
+
 	public double getAltura() {
 		return altura;
 	}

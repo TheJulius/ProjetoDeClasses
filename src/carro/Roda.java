@@ -20,7 +20,7 @@ public class Roda {
 		this.aro = aro;
 	}
 	
-	public void montar(Suspensao suspensao, Freio freio) {
+	public void trocarPecas(Suspensao suspensao, Freio freio) {
 		System.out.println(suspensao.toString());
 		System.out.println(freio.toString());
 	}
